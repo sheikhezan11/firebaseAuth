@@ -9,7 +9,9 @@ class MyUser {
   String? avatarUrl;
   String? gender;
   String? phone;
+  bool? isLoadingStartupData;
   Timestamp? accountCreated;
+
 
   MyUser(
   {
@@ -21,7 +23,9 @@ class MyUser {
     this.avatarUrl,
     this.accountCreated,
     this.gender,
+    this.isLoadingStartupData,
     this.phone
+
 }
 
       );
